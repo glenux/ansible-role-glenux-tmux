@@ -6,7 +6,7 @@
 
 - name: Adds .tmux.conf for all accounts for detected version
   template: 
-    src: 'templates/tmux.conf.j2' 
+    src: tmux.conf.j2
     dest: "~{{ item }}/.tmux.conf"
     owner: "{{ item }}"
     group: "{{ item }}"
