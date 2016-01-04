@@ -1,6 +1,6 @@
 ---
 - name: Installs tmux
-  apt: 
+  apt: >
     pkg=tmux 
     state=present
 
