@@ -10,5 +10,5 @@
     dest: "~{{ item }}/.tmux.conf"
     owner: "{{ item }}"
     group: "{{ item }}"
-  with_items: tmux_users
+  with_items: "{{tmux_users}}"
 
